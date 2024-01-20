@@ -1,0 +1,82 @@
+.background{
+    background-image: linear-gradient(45deg, rgb(185, 0, 185), rgb(179, 70, 179), rgb(238, 135, 152), pink, rgb(250, 250, 160));
+    background-size: 400%;
+    animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left}
+    100% {background-position: right}
+}
+*{
+    font-family: reenie beanie;
+    font-size: 25px;
+    letter-spacing: 0.5;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+h2, h3{
+    font-size: 40px;
+}
+a{
+    text-decoration: underline;
+    color: black;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+a:visited {
+    color: black;
+}
+a:hover, a:focus {
+    color: dodgerblue;
+}
+a{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+table{
+    border: solid 3px;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.418);
+    border-radius: 2.5%;
+    width: 70vw;
+    padding: 1em;
+    box-shadow: 0 0 1em black;
+    table-layout: auto;
+    margin: 0 auto;
+}
+.fun {
+    border: 0;
+    border-radius: 50%;
+    padding: .1em 1.5em;
+    font-size: 1.1rem;
+    font-style: italic;
+    background-image: linear-gradient(45deg, #845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871);
+    background-size: 300%;
+    background-position: center;
+    transition: background-position 1s;
+}
+.fun:hover,
+.fun:focus {
+    background-position: left;
+}
+.typehere{
+    background: rgb(252, 232, 232);
+    font: black;
+    margin: 1px;
+    border-color: #13032c;
+    border-radius: 5%;
+}
+.artinterest{
+    background: rgb(252, 232, 232);
+    font: black;
+    margin: 1px;
+    border-color: #13032c;
+    border-radius: 5%;
+}
+footer {
+    margin: 50px;
+    font-size: 20px;
+}
